@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500&family=Roboto+Condensed&display=swap');
+
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+body{
+    display: flex;
+    color: #76323F;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#head{
+    width: 90%;
+    background: #C09780;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 2px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#headicon{
+    width: 55px;
+}
+#head h1{
+    font-size: 2em;
+    padding-left: 7px;
+    margin: 0;
+}
+#optionsBox {
+    background: linear-gradient(180deg,#D7CEC7, #C09780);
+    border-radius: 14px;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 8px 8px 13px #aaaaaa;
+}
+h1{
+    margin-top: 0;
+}
+h2{
+    font-weight: 100;
+}
+#limit{
+    padding: 0 5px;
+    width: 88%;
+    height: 25px;
+    margin-bottom: 15px;
+    background: transparent;
+    border: 1.9px solid black;
+}
+#limit:focus{
+    outline: none;
+}
+#optionsBtns{
+    width: 100%;
+}
+#saveLimit, #resetTotal {
+    width: 45%;
+    height: 30px;
+    background: #D7CEC7;
+    border: none;
+    padding: 4px;
+    border-radius: 3px;
+    font-size: 1.2em;
+}
+#saveLimit{
+    margin-right: 3px;
+}
